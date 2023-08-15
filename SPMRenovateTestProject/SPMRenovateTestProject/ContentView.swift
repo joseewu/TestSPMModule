@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  TestSPMModule
+//  SPMRenovateTestProject
 //
-//  Created by YiChen WU on 09/08/2023.
+//  Created by YiChen WU on 15/08/2023.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("NOOOOOO!")
+            Text("Hello, world!")
         }
         .padding()
     }

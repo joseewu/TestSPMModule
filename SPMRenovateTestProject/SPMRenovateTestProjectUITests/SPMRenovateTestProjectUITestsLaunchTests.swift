@@ -1,13 +1,13 @@
 //
-//  TestSPMModuleUITestsLaunchTests.swift
-//  TestSPMModuleUITests
+//  SPMRenovateTestProjectUITestsLaunchTests.swift
+//  SPMRenovateTestProjectUITests
 //
-//  Created by YiChen WU on 09/08/2023.
+//  Created by YiChen WU on 15/08/2023.
 //
 
 import XCTest
 
-final class TestSPMModuleUITestsLaunchTests: XCTestCase {
+final class SPMRenovateTestProjectUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,14 +1,14 @@
 //
-//  TestSPMModuleTests.swift
-//  TestSPMModuleTests
+//  SPMRenovateTestProjectTests.swift
+//  SPMRenovateTestProjectTests
 //
-//  Created by YiChen WU on 09/08/2023.
+//  Created by YiChen WU on 15/08/2023.
 //
 
 import XCTest
-@testable import TestSPMModule
+@testable import SPMRenovateTestProject
 
-final class TestSPMModuleTests: XCTestCase {
+final class SPMRenovateTestProjectTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

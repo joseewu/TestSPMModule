@@ -1,13 +1,13 @@
 //
-//  TestSPMModuleUITests.swift
-//  TestSPMModuleUITests
+//  SPMRenovateTestProjectUITests.swift
+//  SPMRenovateTestProjectUITests
 //
-//  Created by YiChen WU on 09/08/2023.
+//  Created by YiChen WU on 15/08/2023.
 //
 
 import XCTest
 
-final class TestSPMModuleUITests: XCTestCase {
+final class SPMRenovateTestProjectUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
