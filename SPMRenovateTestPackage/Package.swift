@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "SPMRenovateTestPackage",
             targets: ["SPMRenovateTestPackage"]),
+        .library(name: "SPMRenovateTestPackageStatic", type: .static, targets: ["SPMRenovateTestPackage"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SPMRenovateTestPackage",
-            dependencies: ["SnapKit"]),
+            dependencies: ["SnapKit"]
+        ),
         .testTarget(
             name: "SPMRenovateTestPackageTests",
             dependencies: ["SPMRenovateTestPackage"]),
