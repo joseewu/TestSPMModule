@@ -4,6 +4,8 @@
     "config:base"
   ],
   "dependencyDashboard": true,
+  "semanticCommitType": "CORE",
+  "semanticCommitScope": "Renovate",
   "enabledManagers": [
     "swift"
   ],
@@ -15,6 +17,12 @@
   "versioning": "swift",
   "pinDigests": false,
   "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+    },
     {
       "matchUpdateTypes": [
         "major"
