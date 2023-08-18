@@ -3,5 +3,27 @@
   "extends": [
     "config:base"
   ],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "enabledManagers": [
+    "swift"
+  ],
+  "swift": {
+    "fileMatch": [
+       "(^|/)Package\\.swift"
+    ]
+  },
+  "versioning": "swift",
+  "pinDigests": false,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "addLabels": [
+        "Auto patch update 🤖",
+        "Open to review 👀",
+        "Waiting for QA 🧪"
+      ]
+    }
+  ]
 }
